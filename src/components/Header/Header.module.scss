@@ -1,5 +1,16 @@
 .header {
+  color: white;
   .headerItem {
     display: flex;
+    justify-content: space-between;
+    position: relative;
+    height: 80px;
+    align-items: center;
+  }
+  .logoWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }

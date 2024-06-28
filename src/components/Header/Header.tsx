@@ -1,7 +1,8 @@
 import { ChevronDownIcon, HamburgerIcon } from '@chakra-ui/icons';
-import { Box, Button, IconButton } from '@chakra-ui/react';
+import { Box, IconButton } from '@chakra-ui/react';
 import { Logo } from '../Logo/Logo';
 import css from './Header.module.scss';
+import { Button } from '../Button/Button';
 
 export type HeaderProps = {
   tvl: number;
@@ -16,19 +17,15 @@ export function Header({ tvl }: HeaderProps) {
           aria-label="Search database"
           icon={<HamburgerIcon />}
         />
-        <Logo />
-        <Button variant="outline">Connect</Button>
+        <div className={css.logoWrapper}>
+          <Logo />
+        </div>
+        <Button label="Connect" />
+        {/* <Button variant="outline">Connect</Button> */}
       </div>
       <Box bg="#13141D">
         <span>TVL: ${tvl}</span>
-        <Button
-          rightIcon={<ChevronDownIcon />}
-          colorScheme="#41B7FF"
-          aria-label="Dropdown"
-          variant="outline"
-        >
-          Polygon
-        </Button>
+        <Button label="Polygon" />
       </Box>
     </header>
   );
