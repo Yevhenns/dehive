@@ -18,8 +18,8 @@ export function Info({ title, amount, apr, question = false }: InfoProps) {
         )}
       </div>
       <div className={css.result}>
-        <span className={css.amount}>{amount}</span>
-        <span className={css.apr}>{apr}</span>
+        <span className={css.amount}>{!question && '$'}{amount}{question && '%'}</span>
+        <span className={css.apr}>APR: {apr}%</span>
       </div>
     </div>
   );

@@ -1,9 +1,45 @@
 .wrapper {
+  .logoWrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px
+  }
+
+  .description {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .rewards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    div {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .rewardsSum {
+      color: #00FF73;
+    }
+  }
+
   .infoWrapper {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-bottom: 30px;
   }
+
+  .impulseWrapper {
+    position: absolute;
+    left: -5px;
+    top: 10px;
+  }
+
   .buttonsWrapper {
     display: flex;
     justify-content: space-between;
