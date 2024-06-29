@@ -1,0 +1,11 @@
+.wrapper {
+  .infoWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .buttonsWrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

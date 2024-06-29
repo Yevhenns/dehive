@@ -1,3 +1,5 @@
+import { ContentWrapper } from '../ContentWrapper/ContentWrapper';
+
 export function Assets() {
-    return (<div>Assets</div>)
+  return <ContentWrapper>Assets</ContentWrapper>;
 }

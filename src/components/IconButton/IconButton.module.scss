@@ -1,0 +1,13 @@
+.iconButton {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+
+  svg {
+    fill: white;
+    width: 24px;
+    height: 24px;
+  }
+}

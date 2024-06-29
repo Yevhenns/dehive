@@ -1,16 +1,32 @@
 .header {
   color: white;
-  .headerItem {
+
+  .headerUpperItem {
     display: flex;
     justify-content: space-between;
     position: relative;
     height: 80px;
     align-items: center;
   }
+
   .logoWrapper {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .headerBottomItemWrapper {
+    background-color: #13141d;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .headerBottomItem {
+    height: 60px;
+    background-color: #13141d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
