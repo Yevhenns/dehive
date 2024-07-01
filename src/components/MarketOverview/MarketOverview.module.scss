@@ -1,5 +1,11 @@
 .chartWrapper {
     height: 440px;
    display: flex;
-   justify-content: center;
+   justify-content: center;   
 }
+
+.typesWrapper{
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+   }

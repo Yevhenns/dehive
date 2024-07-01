@@ -1,0 +1,14 @@
+.wrapper{
+    display: flex;
+    min-width: 100px;
+    .circle{ 
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        white-space: nowrap;
+    }
+}
