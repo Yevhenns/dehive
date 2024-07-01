@@ -2,8 +2,7 @@ import Head from 'next/head';
 import styles from '@/styles/Home.module.css';
 import { Header } from '@/components/Header/Header';
 import { Dashboard } from '@/components/Dashboard/Dashboard';
-import { TopPerfomer } from '@/components/TopPerfomer/TopPerfomer';
-import { Box } from '@chakra-ui/react';
+
 
 export default function Home() {
   return (

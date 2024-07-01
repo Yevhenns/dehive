@@ -1,8 +1,18 @@
 .wrapper {
+  h3{
+    margin-bottom: 15px;
+  }
+  
   .logoWrapper {
     display: flex;
     align-items: center;
-    gap: 12px
+    gap: 12px;
+
+    .logoTitle {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
   }
 
   .description {

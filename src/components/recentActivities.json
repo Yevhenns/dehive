@@ -1,0 +1,110 @@
+[
+    {
+        "id": "1",
+        "icon": "/clusterLogo.svg",
+        "name": "ETH-CORE",
+        "type": "Cluster",
+        "sum": 123.13,
+        "operation": "Join Cluster",
+        "time": "12:50:15 AM"
+    },
+    {
+         "id": "2",
+        "icon": "/clusterLogo.svg",
+        "name": "Polycluster",
+        "type": "Impulse",
+        "sum": 1123.13,
+        "operation": "Join Cluster",
+        "time": "12:50:15 AM"
+    },
+    {
+        "id": "3",
+        "icon": "/clusterLogo.svg",
+        "name": "ETH-CORE",
+        "type": "Cluster",
+        "sum": 123.13,
+        "operation": "Join Cluster",
+        "time": "12:50:15 AM"
+    },
+    {
+         "id": "4",
+        "icon": "/clusterLogo.svg",
+        "name": "Polycluster",
+        "type": "Impulse",
+        "sum": 1123.13,
+        "operation": "Join Cluster",
+        "time": "12:50:15 AM"
+    },
+    {
+        "id": "5",
+        "icon": "/clusterLogo.svg",
+        "name": "ETH-CORE",
+        "type": "Cluster",
+        "sum": 123.13,
+        "operation": "Join Cluster",
+        "time": "12:50:15 AM"
+    },
+    {
+         "id": "6",
+        "icon": "/clusterLogo.svg",
+        "name": "Polycluster",
+        "type": "Impulse",
+        "sum": 1123.13,
+        "operation": "Join Cluster",
+        "time": "12:50:15 AM"
+    },
+    {
+        "id": "7",
+        "icon": "/clusterLogo.svg",
+        "name": "ETH-CORE",
+        "type": "Cluster",
+        "sum": 123.13,
+        "operation": "Join Cluster",
+        "time": "12:50:15 AM"
+    },
+    {
+         "id": "8",
+        "icon": "/clusterLogo.svg",
+        "name": "Polycluster",
+        "type": "Impulse",
+        "sum": 1123.13,
+        "operation": "Join Cluster",
+        "time": "12:50:15 AM"
+    },
+    {
+        "id": "9",
+        "icon": "/clusterLogo.svg",
+        "name": "ETH-CORE",
+        "type": "Cluster",
+        "sum": 123.13,
+        "operation": "Join Cluster",
+        "time": "12:50:15 AM"
+    },
+    {
+         "id": "10",
+        "icon": "/clusterLogo.svg",
+        "name": "Polycluster",
+        "type": "Impulse",
+        "sum": 1123.13,
+        "operation": "Join Cluster",
+        "time": "12:50:15 AM"
+    },
+    {
+        "id": "11",
+        "icon": "/clusterLogo.svg",
+        "name": "ETH-CORE",
+        "type": "Cluster",
+        "sum": 123.13,
+        "operation": "Join Cluster",
+        "time": "12:50:15 AM"
+    },
+    {
+         "id": "12",
+        "icon": "/clusterLogo.svg",
+        "name": "Polycluster",
+        "type": "Impulse",
+        "sum": 1123.13,
+        "operation": "Join Cluster",
+        "time": "12:50:15 AM"
+    }
+]

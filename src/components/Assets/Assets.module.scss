@@ -1,0 +1,25 @@
+.wrapper {
+    overflow-x: scroll;
+    scrollbar-width: none;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    
+
+    .item {
+        grid-template-columns: 19px 1fr 1fr 1fr;
+        display: grid;
+        align-items: flex-start;
+    }
+
+    .infoItem {
+        min-width: 100px;
+        display: flex;
+        flex-direction: column;        
+
+        span {
+            white-space: nowrap;
+        }
+    }    
+}

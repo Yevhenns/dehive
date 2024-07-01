@@ -13,7 +13,9 @@ export function TopPerfomer() {
         <div className={css.impulseWrapper}><Image src={'/impulse.png'} width={99} height={32} alt='impulse' /></div>
         <div className={css.logoWrapper}>
           <Image src={'/impulseLogo.png'} width={80} height={80} alt='logo' />
-          <span>DHV / QUICK</span>
+          <div className={css.logoTitle}>
+            <span>DHV / QUICK</span>
+            <Image src={'/question.png'} width={17} height={18} alt="question" /></div>
         </div>
         <div className={css.description}>
           <Description title='QuickSwap' />
